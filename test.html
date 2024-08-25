@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(https://gtwallpaper.org/sites/default/files/wallpaper/246844/netflix-background-246844-2224740-3441109.png);
+            background-repeat: no-repeat;
+            background-size: 2000px 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            opacity: 0.6;
+            background-color: black;
+           
+        }
+        .container{
+            width: 80%;
+            height: 500px;
+            color: white;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        header{
+            margin-top: 20px;
+            font-size: 40px;
+            color: red;
+        }
+        .container2{
+            background-color: black;
+            width: 25%;
+            position: absolute;
+            display: inline-block;        
+            border-radius: 20px;
+            min-width: 400px;
+            height: 100vh;
+            top: 20%;
+            left: 30%;
+            padding-top: 40px;
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-bottom: 40px;
+        }
+        footer{
+            position: absolute;
+            top: 150%;
+            left: 10%;
+            right:10%;
+            color: white;
+            background-color: black;
+            height: 50vh;
+            align-items: center;
+        }
+        h1{
+            font-size: 35px;
+           
+        }
+        #B{
+            border-color: white;
+            border-radius: 5px;
+            background-color:black;
+            color: white;
+            font-size: 20px;
+            height: 50px;
+            width: 100%;
+        }
+        button{
+            padding: 13px 25px;
+            width: 100%;
+            background-color: red;
+            border: none;
+            color: white;
+        }
+        label{
+            display: flex;
+            align-items: center;
+            
+            
+        }
+        #A{
+            color: white;
+        }
+        p{
+            font-size: 13px;
+        }
+        .container3{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .container4{
+            display: flex;
+           
+            justify-content: space-evenly;
+            
+            
+        }
+        select{
+            background-color: white;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+             <Header><b>NETFLIX</b></Header>
+        <div class="container2">
+            <h1><b>Sign in</b></h1>
+            <br><br>
+            <input type="email" placeholder="email or mobile number" id="B">
+            <br><br>
+            <input type="password" placeholder="password" id="B">
+            <br><br>
+            <button style="text-align: center;"><b>Sign In</b></button>
+            <br><br>
+            <div style="text-align: center;"><b>OR</b></div>
+            <br>
+            <button><b>Use a Sign In Code</b></button><br><br>
+            <nav style="text-align: center;"><B>Forget Password?</B></nav>
+            <br>
+            <label for="Remember me">
+                <input type="checkbox" id="C" >Remember me
+            </label>
+            <br>
+            <div style="font-size: 17px;"><b>New to Netflix? <a href="#" id="A">Sign up now</a></b></div>
+            <br>
+            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#" style="color: blue;">Learn more</a></p>
+        </div>
+        </div>
+        <footer>
+            <div>Questions? Call 000-123-456-789 </div>
+                <br><br>
+                <div class="container3">
+                    <div><a href="#" id="A">FAQ</a></div> 
+                    <div><a href="#" id="A">Help Centre</a></div>
+                    <div><a href="#" id="A">Term of Use</a></div>
+                    <div><a href="#" id="A">Privacy</a></div>
+                </div>
+                <br><br>
+                <div class="container4">
+                    <div><a href="#" id="A">Cookie Preferences</a></div>
+                    <div><a href="#" id="A">Corporate Information</a></div>
+                </div>
+                    
+               
+            <select name="Language">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+           
+
+        </footer>
+    </div>
+   </div>
+</body>
+</html>
